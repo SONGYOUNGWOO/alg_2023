@@ -1,4 +1,4 @@
-
+# dictionary
 # 중괄호와 : 을 사용하여 정의한다
 d1 = {
   "hello": 10, "world": 20.5
@@ -10,7 +10,7 @@ print(d1["hello"])
 # 세 개의 key 에 대하여 그 값을 알아보자 가능한가?
 keys = [ "hello", "are_you_there", "world" ]
 for key in keys:
-  print('-- Key:', key)
+  print('-- Key:', key) #error
 
   value = d1[key] if key in d1 else '없는데요'
   # if key in d1:
